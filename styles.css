@@ -1,0 +1,28 @@
+:root{color-scheme:light dark}html{scroll-behavior:smooth}body{margin:0;background:light-dark(#f3f4ec,#141812)}
+
+#officina-loghi{--paper:light-dark(#f3f4ec,#141812);--ink:light-dark(#20271d,#eff4e8);--muted:light-dark(#505b47,#b7c3aa);--line:light-dark(#cbd2c0,#3e4934);--lime:light-dark(#365c19,#d0f38c);--tile:light-dark(#fafbf6,#1a2016);font-family:Arial,sans-serif;background:var(--paper);color:var(--ink);padding:32px;box-sizing:border-box}
+#officina-loghi *{box-sizing:border-box}#officina-loghi h1,#officina-loghi h2,#officina-loghi h3,#officina-loghi p{margin:0}#officina-loghi header{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding-bottom:20px}#officina-loghi .brand{font:700 20px monospace;letter-spacing:-1px}#officina-loghi .handle{font:12px monospace;color:var(--muted)}#officina-loghi .hero{padding:42px 0 34px}#officina-loghi .eyebrow{font:12px monospace;color:var(--muted);margin-bottom:18px}#officina-loghi h1{font-size:clamp(35px,6vw,59px);line-height:1.04;letter-spacing:-2.5px;font-weight:700}#officina-loghi h1 em{color:var(--lime);font-style:normal}#officina-loghi .intro{max-width:460px;font-size:15px;line-height:1.6;margin-top:20px;color:var(--muted)}#officina-loghi .section-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-top:1px solid var(--line);padding:18px 0}#officina-loghi h2{font-size:17px;font-weight:500}#officina-loghi .small{font:11px monospace;color:var(--muted)}#officina-loghi .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}#officina-loghi article{background:var(--tile);padding:20px;border:1px solid var(--line);display:flex;flex-direction:column;min-width:0}#officina-loghi .project-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:20px}#officina-loghi img{width:56px;height:56px;object-fit:contain;flex-shrink:0}#officina-loghi .tag{font:10px monospace;color:var(--muted);text-align:right}#officina-loghi h3{font-size:19px;letter-spacing:-.4px;overflow-wrap:anywhere}#officina-loghi article p{font-size:12px;line-height:1.6;color:var(--muted);margin:10px 0 20px;flex:1}#officina-loghi .links{font-size:12px;color:var(--lime);display:flex;justify-content:space-between;gap:10px}#officina-loghi .secondary{margin-top:28px}#officina-loghi .secondary article{padding:18px}#officina-loghi .secondary .project-top{margin-bottom:15px}#officina-loghi .wordmark{display:flex;align-items:center;height:56px;font:700 15px monospace;letter-spacing:-1px;color:var(--ink)}#officina-loghi footer{border-top:1px solid var(--line);margin-top:28px;padding-top:16px;display:flex;justify-content:space-between;gap:16px;font:11px monospace;color:var(--muted)}
+@media(max-width:580px){#officina-loghi{padding:22px}#officina-loghi .grid{grid-template-columns:repeat(2,minmax(0,1fr))}#officina-loghi article{padding:15px}#officina-loghi h1{letter-spacing:-1.5px}#officina-loghi .project-top{flex-wrap:wrap}#officina-loghi .tag{text-align:left}#officina-loghi img{width:48px;height:48px}#officina-loghi .links{flex-wrap:wrap}#officina-loghi .section-head{flex-wrap:wrap}#officina-loghi footer{flex-wrap:wrap}}@media(max-width:360px){#officina-loghi .grid{grid-template-columns:1fr}}
+
+#officina-loghi{max-width:1120px;margin:0 auto;padding:40px 48px}
+#officina-loghi a{color:inherit;text-underline-offset:4px;text-decoration-thickness:1px}
+#officina-loghi .handle{text-decoration:none}
+#officina-loghi .links a{text-decoration:none;min-height:32px;display:inline-flex;align-items:center}
+#officina-loghi a:hover{text-decoration:underline}
+#officina-loghi a:focus-visible{outline:2px solid var(--lime);outline-offset:5px;border-radius:2px}
+.skip-link{position:absolute;left:16px;top:12px;transform:translateY(-180%);padding:12px;background:light-dark(#20271d,#eff4e8);color:light-dark(#f3f4ec,#141812);z-index:2}
+.skip-link:focus{transform:translateY(0)}
+#officina-loghi .hero{padding:60px 0 48px}
+#officina-loghi .grid{gap:16px}
+#officina-loghi article{padding:24px}
+#officina-loghi article p{font-size:14px}
+#officina-loghi .tag{font-size:11px}
+#officina-loghi .small{font-size:12px}
+#officina-loghi .links{font-size:13px;flex-wrap:wrap}
+#officina-loghi .section-head{padding:22px 0}
+#officina-loghi .brand,#officina-loghi .handle{overflow-wrap:anywhere}
+#officina-loghi .project-top{flex-wrap:wrap}
+#officina-loghi .tag{text-align:left}
+@media(max-width:760px){#officina-loghi{padding:28px}#officina-loghi .grid{grid-template-columns:repeat(2,minmax(0,1fr))}#officina-loghi article{padding:20px}}
+@media(max-width:480px){#officina-loghi{padding:22px}#officina-loghi .hero{padding:40px 0 32px}#officina-loghi .grid{grid-template-columns:1fr}#officina-loghi header{align-items:flex-start;flex-wrap:wrap}#officina-loghi .project-top{flex-wrap:nowrap}#officina-loghi .tag{text-align:right}#officina-loghi img{width:56px;height:56px}#officina-loghi .section-head{align-items:flex-start}#officina-loghi footer{line-height:1.6}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
