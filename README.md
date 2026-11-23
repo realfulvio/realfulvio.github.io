@@ -1,6 +1,6 @@
-# RealFulvio — Officina
+# realhcok — Officina
 
-Pagina statica di presentazione dei progetti di RealFulvio. HTML e CSS, senza dipendenze runtime, script, tracciamento o font esterni. Il tema segue la preferenza del dispositivo.
+Pagina statica di presentazione dei progetti di realhcok. HTML e CSS, senza dipendenze runtime, script, tracciamento o font esterni. Il tema segue la preferenza del dispositivo.
 
 ## Anteprima locale
 
